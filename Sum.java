@@ -1,8 +1,7 @@
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	modified:   Sum.java
-
-no changes added to commit (use "git add" and/or "git commit -a")
+public class Sum{
+public static void main(String[] args) {
+    int a =5;
+    int b =6;
+    System.out.println("the sum is" + (a+b));
+  }
+}
